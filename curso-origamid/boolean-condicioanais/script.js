@@ -26,5 +26,5 @@ if(!undefined) // true
 if(!!' ') // true
 if(!!'') // false
 {
-  
+
 }
