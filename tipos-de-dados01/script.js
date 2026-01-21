@@ -1,13 +1,15 @@
-var idade = 23;
-var divisao = 200 / 5;
-var multiplicacao = 100 * 2;
-var soma = 34 + 67;
-var subtracao = 45 - 23;
-console.log(typeof idade);
-
-var total = 10 + 5 * 2 / 10 - 5;
-console.log(total);
-
-var incremento = 1;
-console.log(++incremento);
-console.log(incremento);
+// Qual o resultado da seguinte expressão?
+var total = 10 + 5 * 2 / 2 + 20;
+console.log(total); // 35
+// Crie duas expressões que retornem NaN
+var expressao1 = 'texto' / 2;
+// Somar a string '200' com o número 50 e retornar 250
+var soma = Number('200') + 50;
+console.log(soma); // 250
+// Incremente o número 5 e retorne o seu valor incrementado
+var numero = 5;
+console.log(++numero); // 6
+// Como dividir o peso por 2?
+var numero = '80';
+var unidade = 'kg';
+var peso = numero + unidade; // '80kg'
