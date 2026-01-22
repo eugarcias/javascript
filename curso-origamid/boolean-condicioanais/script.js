@@ -25,6 +25,15 @@ if(!'') // true
 if(!undefined) // true
 if(!!' ') // true
 if(!!'') // false
-{
 
+  var corFavorita = 'azul';
+   switch (corFavorita) {
+     case 'azul':
+       console.log('Olhe para o céu.');
+        break;
+        case 'vermelho':
+       console.log('Olhe para rosas.');
+        break;
+        default:
+          console.log('Feche os olhos.');
 }
