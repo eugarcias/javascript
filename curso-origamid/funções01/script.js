@@ -16,3 +16,5 @@ function imc (peso, altura) {
   return imc;
 }
  console.log(imc(80, 1.8)); // 24.69...
+
+ function cor
