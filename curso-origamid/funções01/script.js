@@ -37,17 +37,18 @@ function corFavorita(cor) {
 
 
 function terceiraIdade (idade) {
-  if (Typeof idade !== 'number') {
+  if (typeof idade !== 'number') {
     return 'Por favor preencha um número';
   } else if (idade >= 60) {
     return true;  
-  } else {            
+  } else {
+    return false;
+  }
 }
-}  return false;
 
 console.log(terceiraIdade(60));
 
 function faltaVisitar(paisesVisitados) {
   var totalPaises = 193;
   return `Faltam visitar ${totalPaises - paisesVisitados} países`;
-}     
+}
