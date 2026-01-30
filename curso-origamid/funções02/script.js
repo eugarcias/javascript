@@ -14,8 +14,16 @@
 
 // Crie uma função que verifica se um número é par
 
+ function ehPar (numero) {
+   return numero % 2 === 0;
+ }
+
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
+
+ function tipoDado (dado) {
+   return typeof dado;
+   }
 
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
