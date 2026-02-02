@@ -1,0 +1,26 @@
+/* Conceito: Condicional (if / else). Na Bora Mais, compras acima de R$ 300,00 ganham frete grátis.
+
+Tarefa: Crie uma função chamada calcularFrete.
+Parâmetros: valorCompra.
+
+Lógica:
+Se valorCompra for maior (>) que 300, o frete é 0.
+Se não, o frete é 20.
+
+Retorno: "O valor do frete é R$ X."
+Teste no final: Teste com um valor de 150 e outro de 400. */
+
+function calcularFrete (valorCompra) {
+    let precoDoFrete;
+
+    if (valorCompra >300){
+        precoDoFrete = 0;
+    } else {
+        precoDoFrete = 20;
+    } 
+
+    return `O valor do frete é R$${precoDoFrete}`;
+}
+
+console.log (calcularFrete(150));
+console.log (calcularFrete(400));
