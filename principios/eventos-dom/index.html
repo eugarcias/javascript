@@ -10,14 +10,40 @@
       background-color: black;
       color:white;
     }
+
+    div#area {
+      background: green;
+      color: white;
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      text-align:center;
+    }
   </style>
 </head>
 <body>
   <h1>Primeiros Passsos com DOM</h1>
   <p>Aqui vai os resultados</p>
-  <p>Aprendendo usar o <strong>DOM</strong></p>
-  <div id = "msg">Clique em mim</div>
+  <p>Aprendendo usar os eventos <strong>DOM</strong></p>
+  <div id = "area">
+    Interaja...
+  </div>
   <script>
+      var a = window.document.getElementById('area')
+      a.addEventListener('click', clicar)
+      a.addEventListener('mouseenter', entrar)
+      a.addEventListener('mouseout', sair)
+      function clicar() {
+        a.innerText = 'Clicou!'
+        a.style.background = 'red'
+      }
+      function entrar(){
+        a.innerText = 'Entrou!'
+      }
+      function sair(){
+        a.innerText = 'Saiu!'
+      }
+    
   
 
   </script>
